@@ -1,0 +1,9 @@
+genome c24
+trackDb c24/trackDb.txt
+groups groups.txt
+description Feb. 2017 Thale cress c24 strain
+twoBitPath c24/c24.2bit
+organism Arabidopsis thaliana
+defaultPos chr1:1000-2000
+orderKey 4700
+scientificName Arabidopsis thaliana

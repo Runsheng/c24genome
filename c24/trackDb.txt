@@ -1,0 +1,85 @@
+track genscan_
+shortLabel Genscan Genes
+longLabel Genscan Gene Predictions
+group genes
+priority 50
+visibility pack
+color 170,100,0
+type bigGenePred
+bigDataUrl bbi/gene.bb
+
+track c24_control1
+bigDataUrl rnabb/c24_control_1_s.bb
+shortLabel c24_con1
+longLabel normal c24 replicate 1
+group rna
+type bigGenePred
+visibility squish 
+colorByStrand 64,224,208 250,128,114
+
+track c24_control2
+bigDataUrl rnabb/c24_control_2_s.bb
+shortLabel c24_con2
+longLabel normal c24 replicate 2
+group rna
+type bigGenePred
+visibility squish 
+colorByStrand 64,224,208 250,128,114
+
+track 488_control1
+bigDataUrl rnabb/488_control_1_s.bb
+shortLabel 488_con1
+longLabel mutant 488 replicate 1
+group rna
+type bigGenePred
+visibility squish 
+colorByStrand 64,224,208 250,128,114
+
+track 488_control2
+bigDataUrl rnabb/488_control_2_s.bb
+shortLabel 488_con2
+longLabel mutant 488 replicate 2
+group rna
+type bigGenePred
+visibility squish 
+colorByStrand 64,224,208 250,128,114
+
+track c24_aba1
+bigDataUrl rnabb/c24_aba_1_s.bb
+shortLabel c24_aba1
+longLabel c24 seedling with aba treatment replicate 1
+group rna
+type bigGenePred
+visibility squish 
+colorByStrand 64,224,208 250,128,114
+
+track c24_aba2
+bigDataUrl rnabb/c24_aba_2_s.bb
+shortLabel c24_aba2
+longLabel c24 seedling with aba treatment replicate 2
+group rna
+type bigGenePred
+visibility squish 
+colorByStrand 64,224,208 250,128,114
+
+
+track 488_aba1
+bigDataUrl rnabb/488_aba_1_s.bb
+shortLabel 488_aba1
+longLabel 488 mutant seedling with aba treatment replicate 1
+group rna
+type bigGenePred
+visibility squish 
+colorByStrand 64,224,208 250,128,114
+
+track 488_aba2
+bigDataUrl rnabb/488_aba_2_s.bb
+shortLabel 488_aba2
+longLabel 488 mutant seedling with aba treatment replicate 2
+group rna
+type bigGenePred
+visibility squish 
+colorByStrand 64,224,208 250,128,114
+
+
+

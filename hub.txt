@@ -1,0 +1,5 @@
+hub c24genome
+shortLabel c24_488_track 
+longLabel RNA_track_in_c24_genome
+genomesFile genomes.txt
+email runsheng.lee@gmail.com
